@@ -139,46 +139,42 @@ color: #222222;
     align-items: center;
 }
 
+.mar{
+padding: 10%;
+
+}
 
 /* CUARTO */
 
 .Imagenes {
     display: grid;
     grid-template-columns: 50% 50%;
-    
+    margin: 2% 2%;
 }
 
 .Imagenes img {
-    padding: 5%;
+ width: 100%;
 }
 
-
-
-
-/* MEDIA */
-
-
-@media  only screen and (max-width: 1475px)
-{
-    .Imagenes {
-        grid-template-columns: 1fr;
-        padding: 5%;
-    }
-
-    .Imagenes img {
-        width: 100% ;
-padding: 2% 0;
-    }
-
-}
 
 .SeccionPa {
     margin: 5%;
 
 }
 
+/* MEDIA */
 
-@media  only screen and (max-width: 750px)
+
+
+
+@media only screen and (max-width: 458) {
+    li {
+width: 100%;    }
+
+
+    }
+
+@media  only screen and (max-width: 950px)
 {
 
     .container{
@@ -193,7 +189,7 @@ padding: 2% 0;
     
     
     .texto{ 
-        font-size: 0.7rem; 
+        font-size: 0.7em; 
 
     }
      
@@ -240,6 +236,13 @@ padding: 2% 0;
     }
 
    
+    .Imagenes {
+        grid-template-columns: 100%;
+    }
+
+    .Imagenes img {
+        width: 100% ;
+    }
 
    
 }
