@@ -90,7 +90,6 @@ padding: 0;
     display: block;
     border: solid;
     background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
-
     color: #ffffffff;
     border-width: 1px;
     padding: 0.6em 1.6em;
@@ -238,6 +237,7 @@ h2 , .text2{
 
 .texto3 {
     text-align: center;
+    font-size: 0.7em;
 
 }
 
@@ -288,6 +288,49 @@ margin-bottom: 4%;
     justify-content: center;
     
 }
+
+
+
+/* SEXTO */
+
+.Sexto {
+    font-size: 1.5em;
+    padding: 3%;
+
+}
+
+/* 7 */
+
+footer {
+    background-color: #222222;
+    font-size: 0.6em;
+    text-align: center;
+    height: 100%;
+}
+
+footer nav {
+    margin: 20% 3%;
+    justify-content: center;
+}
+
+ li {
+     list-style: none;
+    text-decoration: none;
+    padding: 0 0.7em;
+}
+a {
+    text-decoration: none;
+}
+
+.red
+{
+
+   
+    justify-content: center;
+}
+
+
+
 
 
 /* MEDIA */
@@ -403,4 +446,32 @@ width: 100%;    }
 
 }
 
+.Sexto {
+    font-size: 1em;
+    padding: 1%;
+    margin-bottom: 15%;
 
+}
+
+footer p span {
+    color:#4b379a;
+}
+
+
+footer nav {
+    margin: 10% 0;
+}
+.red
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+    padding: 0 0.5em;    
+}
+
+li {
+    list-style: none;
+   text-decoration: none;
+   padding: 0;
+}
+}
