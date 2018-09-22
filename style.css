@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #4b379a;
+    font-family: 'Poppins', sans-serif;
+    color: #777777;
+}
+
+
+header {
+background-image: url(img/1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 26em;
+width: 100%;
+color: #ffffffff;
+font-weight: initial;
+
+}
+
+
+.container{
+    background-color: #ffffffff;
+    margin: 3em auto;
+    max-width: 1320px;
+ height: 80%;
+    width: 80%;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.back{
+    position: relative;
+    width: 100%;
+    height: 100%;     
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    opacity: 0.8;
+ 
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: lighter;
+
+}
+.navegador div img {
+    padding-left: 3%;
+}
+
+.navegador div ul li {
+    display: inline;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    padding: 3em;
+
+}
+
+
+a {
+    text-decoration: none;
+color: #ffffffff;
+}
+
+
+.menuHeader {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding-top: 4em;
+}
+
+.menuHeader div {
+    line-height: 0.25em;
+padding: 0;
+
+}
+
+.boton {
+    border-radius: 2em;
+    display: block;
+    border: solid;
+    color: #ffffffff;
+    background: #00000000;
+    border-width: 1px;
+    padding: 0.6em 1.6em;
+    text-decoration: none;
+    margin: 0 auto;
+    color: none;
+
+}
+
+/* 2 section*/
+
+.SeccionBlanca h2 span{
+color: #222222;
+}
+
+.SeccionBlanca div {
+    padding: 0 5%;
+}
+.SeccionBlanca {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 1em;
+    text-align: justify;
+   padding: 7%;
+}
+
+.imgBlanca img
+{
+    width: 100%;
+    padding-top: 10%;
+
+}
+
+
+/* TERCERO */
+
+.paralh {
+    background-image: url(img/3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: #ffffffff;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* CUARTO */
+
+.Imagenes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.Imagenes img {
+    padding: 5%;
+}
+
+
+
+
+/* MEDIA */
+
+
+@media  only screen and (max-width: 1475px)
+{
+    .Imagenes {
+        grid-template-columns: 1fr;
+        padding: 5%;
+    }
+
+    .Imagenes img {
+        width: 100% ;
+padding: 2% 0;
+    }
+
+}
+
+.SeccionPa {
+    margin: 5%;
+
+}
+
+
+@media  only screen and (max-width: 750px)
+{
+
+    .container{
+        margin: 0;
+        width: 100%; 
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+   
+    
+    
+    .texto{ 
+        font-size: 0.7rem; 
+
+    }
+     
+    .texto1{ 
+        font-size: 0.7em; 
+        padding: 0 5%;
+
+    }
+
+    .imgBlanca img
+    {
+        width: 100%;
+        padding-top: 10%;
+    }
+    .SeccionBlanca {
+        grid-template-columns: 1fr;
+    }
+    
+    .SeccionPa {
+        padding: 5% 5% 0 5%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: justify;
+        margin-bottom: 3%;
+    }
+
+    .texto1{
+        margin-top: 0;
+    }
+
+    .paralh {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    h2 {
+        padding: 5%;
+    }
+
+    .Bu {
+    margin: 4% 3%;
+    }
+
+   
+
+   
+}
+
+
